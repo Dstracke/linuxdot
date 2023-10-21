@@ -8,3 +8,5 @@
         - picom
         - rofi
         - ranger
+        - i3
+        - i3status
