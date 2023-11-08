@@ -189,9 +189,11 @@ require('lazy').setup({
   { 'nvim-neo-tree/neo-tree.nvim' },
   { "nvim-lua/plenary.nvim" },
   { "nvim-tree/nvim-web-devicons" },
-  { "MunifTanjim/nui.nvim" }
+  { "MunifTanjim/nui.nvim" },
+  { "rafamadriz/friendly-snippets" }
 }, {})
-
+-- Snippert Ordner
+require("luasnip.loaders.from_vscode").lazy_load({ paths = { "~/.local/share/nvim/lazy/friendly-snippets/" } })
 -- [[ Setting options ]]
 -- See `:help vim.o`
 
