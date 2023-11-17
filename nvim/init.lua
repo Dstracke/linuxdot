@@ -196,6 +196,7 @@ require('lazy').setup({
 }, {})
 -- Snippert Ordner
 require("luasnip.loaders.from_vscode").lazy_load({ paths = { "~/.local/share/nvim/lazy/friendly-snippets/" } })
+vim.notify = require("notify")
 -- [[ Setting options ]]
 -- See `:help vim.o`
 
@@ -520,4 +521,3 @@ cmp.setup.cmdline('/', {
     })
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
-
