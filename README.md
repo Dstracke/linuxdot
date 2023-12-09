@@ -4,6 +4,7 @@
         - zsh
         - nvim
         - fish
+        - tmux
         - wezterm
         - picom
         - rofi
