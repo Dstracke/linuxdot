@@ -111,11 +111,10 @@ require('lazy').setup({
   },
 
   { -- Theme inspired by Atom
-  --  'navarasu/onedark.nvim',
-    "ellisonleao/gruvbox.nvim",
+   'catppuccin/nvim',
     priority = 1000,
     config = function()
-      vim.cmd.colorscheme 'gruvbox'
+      vim.cmd.colorscheme 'catppuccin-mocha'
     end,
   },
 
@@ -125,7 +124,7 @@ require('lazy').setup({
     opts = {
       options = {
         icons_enabled = false,
-        theme = 'gruvbox',
+        theme = 'catppuccin',
         component_separators = '|',
         section_separators = '',
       },
@@ -186,6 +185,7 @@ require('lazy').setup({
   --    to get rid of the warning telling you that there are not plugins in `lua/custom/plugins/`.
   { 'darrikonn/vim-gofmt' },
   { 'christoomey/vim-tmux-navigator' },
+  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
   { 'rcarriga/nvim-notify' },
   { 'nvim-neo-tree/neo-tree.nvim' },
   { "nvim-lua/plenary.nvim" },
