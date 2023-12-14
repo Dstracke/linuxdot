@@ -3,10 +3,10 @@
 # border & title
 for_window [class="^.*"] border pixel 1, title_format "<b> %class >> %title </b>"
 # class                 border  backgr. text    indicator child_border
-client.focused          #2d2d2d	 #285577 #ffffff #2e9ef4  #808fa0
-client.focused_inactive #2d2d2d #5f676a #ffffff #484e50   #2d2d2d
-client.unfocused        #2d2d2d #222222 #888888 #292d2e   #2d2d2d
-client.urgent           #9d5b61 #900000 #ffffff #900000   #9d5b61
+client.focused          #96CDFB  #96CDFB #FFFFFF #ABE9B3   #96CDFB
+client.focused_inactive #6E6C7E  #6E6C7E #FFFFFF #ABE9B3   #96CDFB
+client.unfocused 	#1E1E2E  #1E1E2E #FFFFFF #1E1E2E   #1E1E2E
+client.urgent 		#ABE9B3  #ABE9B3 #FFFFFF #96CDFB   #B5E8E0 
 client.placeholder      #2d2d2d #0c0c0c #ffffff #000000   #2d2d2d
 
 # gaps
@@ -230,13 +230,13 @@ popup_during_fullscreen smart
 
 bar {
  colors {
-        background #2d2d2d
+        background #1e1e2e 
         statusline #808fa0 #that neon blue
-        separator #666666
+        separator #45475a
 #                            border  backgr. text
-        focused_workspace  #808fa0 #808fa0 #ffffff
-        active_workspace   #2d2d2d #2d2d2d #c6c6c6
-        inactive_workspace #2d2d2d #2d2d2d #888888
+        focused_workspace  #808fa0 #45475a #a6e3a1
+        active_workspace   #313264 #313244 #fab387
+        inactive_workspace #313264 #313244 #fab387
         urgent_workspace   #9d5b61 #9d5b61 #c6c6c6
     }
         status_command i3status -c ~/.config/i3status/config
