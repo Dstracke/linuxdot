@@ -200,7 +200,7 @@ compinit -u -d "$compfile"
 # initialize prompt with a decent built-in theme
 promptinit
 prompt adam1
-source ~/powerlevel10k/powerlevel10k.zsh-theme
+source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 source /usr/share/zsh/plugins/fzf-tab-git/fzf-tab.plugin.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
