@@ -35,7 +35,7 @@ exec_always nitrogen --restore
 exec_always picom -b
 # run once
 exec --no-startup-id xfsettingsd
-
+exec --no-startup-id nm-applet --sm-disable
 #############         Bindings           ##################
 
 # launchers
