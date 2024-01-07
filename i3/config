@@ -34,6 +34,7 @@ exec_always --no-startup-id xrdb -load ~/.Xresources
 exec_always nitrogen --restore
 exec_always picom -b
 # run once
+exec --no-startup-id blueman-applet
 exec --no-startup-id xfsettingsd
 exec --no-startup-id nm-applet --sm-disable
 #############         Bindings           ##################
