@@ -199,7 +199,8 @@ require('lazy').setup({
   end}
 }, {})
 -- Disable Codeium Tab
-vim.g.codeium_no_map_tap = true
+-- vim.g.codeium_no_map_tap = true
+vim.g.codeium_disable_bindings = 1
 -- Snippert Ordner
 require("luasnip.loaders.from_vscode").lazy_load({ paths = { "~/.local/share/nvim/lazy/friendly-snippets/" } })
 vim.notify = require("notify")
