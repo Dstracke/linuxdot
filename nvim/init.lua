@@ -166,6 +166,22 @@ require('lazy').setup({
       pcall(require('nvim-treesitter.install').update { with_sync = true })
     end,
   },
+  { -- Add jsonfly plus leader j
+    "nvim-telescope/telescope.nvim",
+    dependencies = {
+        "Myzel394/jsonfly.nvim",
+    },
+    keys = {
+        {
+            "<leader>j",
+            "<cmd>Telescope jsonfly<cr>",
+            desc = "Open json(fly)",
+            ft = { "json" },
+            mode = "n"
+        }
+    }
+},
+
 
   -- NOTE: Next Step on Your Neovim Journey: Add/Configure additional "plugins" for kickstart
   --       These are some example plugins that I've included in the kickstart repository.
