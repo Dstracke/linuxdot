@@ -1,5 +1,6 @@
 # Linux Dotfiles
 
+
 ## My dotfiles for Arch Linux
         - zsh
         - nvim
