@@ -3,10 +3,10 @@
     # border & title
     for_window [class="^.*"] border pixel 2, title_format "<b> %class >> %title </b>"
     # class                 border  backgr. text    indicator child_border
-    client.focused          #96CDFB  #96CDFB #FFFFFF #ABE9B3   #96CDFB
-    client.focused_inactive #6E6C7E  #6E6C7E #FFFFFF #ABE9B3   #96CDFB
+    client.focused          #fab387  #fab387 #FFFFFF #fab387   #fab387
+    client.focused_inactive #6E6C7E  #6E6C7E #FFFFFF #fab387   #fab387
     client.unfocused 	#1E1E2E  #1E1E2E #FFFFFF #1E1E2E   #1E1E2E
-    client.urgent 		#ABE9B3  #ABE9B3 #FFFFFF #96CDFB   #B5E8E0 
+    client.urgent 		#ABE9B3  #ABE9B3 #FFFFFF #fab387   #fab387 
     client.placeholder      #2d2d2d #0c0c0c #ffffff #000000   #2d2d2d
 
     # gaps
