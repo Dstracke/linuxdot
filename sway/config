@@ -57,7 +57,7 @@
     bindsym $Mod+f             fullscreen toggle 
     bindsym $Mod+t             exec --no-startup-id wezterm
     bindsym $Mod+b             exec --no-startup-id zen-browser
-    bindsym $Mod-d             exec --no-startup-id discord
+    bindsym $Mod+d             exec --no-startup-id discord
     bindsym $Mod+Return        exec --no-startup-id	wezterm 
     bindsym Mod1+Shift+Return  exec --no-startup-id al-terminal
     bindsym Control+Shift+t    exec --no-startup-id al-terminal
