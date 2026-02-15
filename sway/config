@@ -41,7 +41,8 @@
 
     # launchers
     bindsym Mod1+p exec --no-startup-id rofi_run -r
-    bindsym Control+space exec --no-startup-id rofi_run -r
+    bindsym Control+space exec --no-startup-id rofi_run -r 
+    bindsym $Mod+Shift+w exec --no-startup-id rofi_run -w
 
     # kill focused window
     bindsym $Mod+Shift+q kill
