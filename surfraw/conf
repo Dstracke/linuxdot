@@ -1,0 +1,7 @@
+SURFRAW_browser=zen-browser
+SURFRAW_graphical_browser=zen-browser
+SURFRAW_web_browser=zen-browser
+SURFRAW_text_browser=lynx
+SURFRAW_search_engine=duckduckgo
+
+
