@@ -5,17 +5,20 @@
  ******************************************************************************/
 
 window {
-	width:            30%;
-	height:           25%;
+    width:            30%;
+    height:           25%;
     padding:          4;
     text-color:       #c1c1c1;
     background-color: #1e1e2e;
+    border:           4 4 4 4;
+    border-color:     #fab387;
+    border-radius:    16;
 }
 
 prompt {
     padding:          4;
-	text-color:       #1e1e2e;
-	background-color: #89b4fa;
+    text-color:       #1e1e2e;
+    background-color: #89b4fa;
 }
 
 entry {
@@ -25,12 +28,12 @@ entry {
 }
 
 inputbar {
-	children: 		  [ prompt, entry ];
+    children: 		  [ prompt, entry ];
     padding:          4;
-	border:           0 0 1;
+    border:           0 0 4;
     text-color:       #c1c1c1;
     background-color: #1e1e2e;
-	border-color: #cdd6f4;
+    border-color: #fab387;
 }
 
 listview {
@@ -54,7 +57,7 @@ element {
 }
 
 element-icon {
-	padding:          0 4 0;
+    padding:          0 4 0;
     text-color:       inherit;
     background-color: inherit;
 }
@@ -75,17 +78,17 @@ element normal.active, element alternate.active {
 }
 
 element selected {
-	text-color:       #1e1e2e;
-	background-color: #f38ba8;
+    text-color:       #1e1e2e;
+    background-color: #f38ba8;
 }
 
 element selected.urgent {
-	text-color:       #1e1e2e;
-	background-color: #f38ba8; 
+    text-color:       #1e1e2e;
+    background-color: #f38ba8; 
 }
 
 element selected.active {
-	text-color:       #f38ba8;
-	background-color: #1e1e2e;
+    text-color:       #f38ba8;
+    background-color: #1e1e2e;
 }
 // vim:ft=css
