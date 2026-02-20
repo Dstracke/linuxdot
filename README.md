@@ -11,5 +11,5 @@
         - ranger
         - i3
         - i3status
-        - sway/waybar
+        - swayfx/waybar
         - surfraw
