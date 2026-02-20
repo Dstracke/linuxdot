@@ -10,8 +10,32 @@
     client.placeholder      #2d2d2d #0c0c0c #ffffff #000000   #2d2d2d
 
     # gaps
-    gaps inner 8
+    gaps inner 20 
     gaps outer 0
+
+# Ecken abrunden (sieht modern aus)
+corner_radius 12
+
+# Schatten für Fenster (gibt Tiefe)
+shadows on
+shadow_blur_radius 25
+shadow_color #000000
+
+# Blur-Effekt (Unschärfe hinter transparenten Fenstern)
+blur on
+blur_xray off
+blur_passes 3
+blur_radius 5
+
+# Dimmen von inaktiven Fenstern (hilft beim Fokus)
+default_dim_inactive 0.2
+
+# Layer Effekte
+layer_effects "waybar" blur disable; shadows disable;
+layer_effects "rofi" blur disable; shadows enable; shadow_blur_radius 30; shadow_color #000000
+
+
+
 
     # font
     font pango:JetBrainsMono 12
