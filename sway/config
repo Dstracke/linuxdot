@@ -2,7 +2,7 @@
 
 # border & title
 for_window [class="^.*"] border pixel 2, title_format "<b> %class >> %title </b>"
-    # class                 border  backgr. text    indicator child_border
+# class                 border  backgr. text    indicator child_border
 client.focused          #fab387  #fab387 #FFFFFF #fab387   #fab387
 client.focused_inactive #6E6C7E  #6E6C7E #FFFFFF #fab387   #fab387
 client.unfocused 	#1E1E2E  #1E1E2E #FFFFFF #1E1E2E   #1E1E2E
