@@ -27,7 +27,16 @@ M.setup = function()
 			name      = 'python_lsp',
 			cmd       = { 'pyright-langserver', '--stdio' },
 			root_dir  = vim.fn.getcwd(),
-			settings  = { Python = { diagnostics = { globals = { 'vim' } } } },
+			settings  = {},
+			on_attach = on_attach,
+		})
+	end
+	local function start_elixir_lsp()
+		vim.lsp.start({
+			name      = 'elixir_ls',
+			cmd       = { 'elixir-ls' },
+			root_dir  = vim.fn.getcwd(),
+			settings  = {},
 			on_attach = on_attach,
 		})
 	end
@@ -40,6 +49,11 @@ M.setup = function()
 	vim.api.nvim_create_autocmd('FileType', {
 		pattern = 'python',
 		callback = start_pyright_lsp,
+	})
+
+	vim.api.nvim_create_autocmd('FileType', {
+		pattern = 'elixir","heex","eex","exs","ex',
+		callback = start_elixir_lsp,
 	})
 end
 
